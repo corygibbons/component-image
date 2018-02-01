@@ -13,9 +13,9 @@ nunjucks.configure(tplOpts.path, {
   autoescape: true
 })
 
-module.exports = async function (component, stylesheet) {
+module.exports = async function (component, stylesheet, renderer) {
   const template = nunjucks.render(tplOpts.view, {
-    component: await renderComponent(component),
+    component: await renderComponent(component, renderer),
     styles: await parseStyleSheet(stylesheet)
   })
 
