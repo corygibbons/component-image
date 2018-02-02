@@ -27,14 +27,16 @@ generateImage(component, options);
 
 ```js
 options = {
-  // path to .css file
+  // Path to .css file
   stylesheet: undefined;
+  // Change size of screenshot
   viewport: {
     width: 800,
     height: 600,
   },
+  renderer: ReactDOMServer.renderToStaticMarkup,
   image: {
-    // path to save image, likely not necessary
+    // Path to save image, likely unnecessary
     path: undefined,
   }
 }
