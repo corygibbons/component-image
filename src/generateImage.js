@@ -11,6 +11,7 @@ const defaultOpts = {
     width: 800,
     height: 600,
   },
+  renderer: undefined,
   image: {
     path: undefined,
   },
@@ -18,7 +19,7 @@ const defaultOpts = {
 
 const generateImage = async function(component, options) {
   const opts = merge(defaultOpts, options);
-  const template = await renderTemplate(component, opts.stylesheet);
+  const template = await renderTemplate(component, opts.stylesheet, opts.renderer);
   return await takeScreenshot(template, opts);
 };
 
