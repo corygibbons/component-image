@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/corygibbons/component-image.git"
   },
-  "keywords": ["react", "component", "image"],
+  "keywords": [
+    "react",
+    "component",
+    "image"
+  ],
   "author": "Cory Gibbons",
   "license": "MIT",
   "bugs": {
@@ -32,6 +36,9 @@
     "codecov": "^2.3.0",
     "jest": "^20.0.4",
     "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": "8.9.4"
   },
   "jest": {
     "collectCoverage": true
