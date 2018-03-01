@@ -24,7 +24,7 @@
   "dependencies": {
     "lodash.merge": "^4.6.0",
     "nunjucks": "^3.0.1",
-    "puppeteer": "^0.10.1",
+    "puppeteer": "^1.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
