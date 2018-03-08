@@ -4,18 +4,14 @@
   "description": "Generate image snapshots of React components",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "standard src/**/*.js"
+    "precommit": "pretty-quick --staged",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/corygibbons/component-image.git"
   },
-  "keywords": [
-    "react",
-    "component",
-    "image"
-  ],
+  "keywords": ["react", "component", "image"],
   "author": "Cory Gibbons",
   "license": "MIT",
   "bugs": {
@@ -34,8 +30,10 @@
     "babel-preset-react": "^6.24.1",
     "cheerio": "^1.0.0-rc.2",
     "codecov": "^2.3.0",
+    "husky": "^0.14.3",
     "jest": "^20.0.4",
-    "standard": "^10.0.3"
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1"
   },
   "engines": {
     "node": ">=8"
