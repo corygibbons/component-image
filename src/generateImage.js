@@ -19,7 +19,11 @@ const defaultOpts = {
 
 const generateImage = async function(component, options) {
   const opts = merge(defaultOpts, options);
-  const template = await renderTemplate(component, opts.stylesheet, opts.renderer);
+  const template = await renderTemplate(
+    component,
+    opts.stylesheet,
+    opts.renderer
+  );
   return await takeScreenshot(template, opts);
 };
 

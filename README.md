@@ -5,7 +5,7 @@ This package will only give you the image, you'll have to diff it with something
 
 [![npm version](https://img.shields.io/npm/v/component-image.svg?style=flat-square)](https://www.npmjs.com/package/component-image)
 [![codeship](https://img.shields.io/codeship/86aa0d10-ea06-0135-9c63-46e97464ee28/master.svg?style=flat-square)](https://app.codeship.com/projects/270028)
-[![codecov](https://img.shields.io/codecov/c/github/corygibbons/component-image.svg?style=flat-square)](https://codecov.io/gh/corygibbons/component-image)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Usage
 
