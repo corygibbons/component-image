@@ -13,6 +13,7 @@ const component = (
 describe('generateImage()', () => {
   it('saves an image', async () => {
     const result = await generateImage(component, {
+      stylesheet: path.resolve(__dirname, 'data/sample.css'),
       image: {
         path: './test/data/image.png',
       },
