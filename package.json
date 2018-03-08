@@ -22,11 +22,11 @@
     "url": "https://github.com/corygibbons/component-image/issues"
   },
   "dependencies": {
-    "lodash.merge": "^4.6.0",
-    "nunjucks": "^3.0.1",
+    "lodash.merge": "^4.6.1",
+    "nunjucks": "^3.1.2",
     "puppeteer": "^1.1.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
