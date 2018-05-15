@@ -15,6 +15,7 @@ const defaultOpts = {
   image: {
     path: undefined,
   },
+  puppeteerOptions: {},
 };
 
 const generateImage = async function(component, options) {

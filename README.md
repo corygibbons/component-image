@@ -38,7 +38,9 @@ options = {
   image: {
     // Path to save image, likely unnecessary
     path: undefined,
-  }
+  },
+  // Options that are passed to Puppeteer
+  puppeteerOptions: {}
 }
 ```
 
