@@ -3,6 +3,8 @@ import path from 'path';
 import React from 'react';
 import { generateImage } from '../index';
 
+jest.setTimeout(30000);
+
 const component = (
   <div>
     <h1>Component Image</h1>
