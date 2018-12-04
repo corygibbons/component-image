@@ -1,6 +1,6 @@
 {
   "name": "component-image",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Generate image snapshots of React components",
   "main": "index.js",
   "scripts": {
